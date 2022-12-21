@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: navy;
+    color: white;
+    font-family: 'Solway', serif;
+}
+h1{
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    margin: 2rem auto 4rem;
+    text-align: center;
+}
+
+.input-label {
+    display: block;
+    font-size: large;
+    font-weight: 600;
+}
+  
+.input {
+    display: block;
+    font-size: 14px;
+    background-color: #fff;
+    padding: 0.6rem 1rem;
+    margin: 1rem;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width: 100vh;
+    max-width: 258px;
+}
+  
+#check-number{
+    display: block;
+    margin-top: 1rem;
+    margin: auto;
+    background: transparent;
+    color: white;
+    border-color: white;
+    border-width: medium;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+}
+
+  /* footer */
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    width : 100%;
+    bottom:0;
+}
+.footer_icon{
+    width: 3rem;
+    height: 3rem;
+    padding: 0.5rem;
+}
