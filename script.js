@@ -5,11 +5,16 @@ const outputBox= document.querySelector("#output-box");
 
 function compareValues(sum,luckyNumber){
     //console.log(sum,luckyNumber);
-    if(sum%luckyNumber==0)
-        outputBox.innerHTML="Your Birthday is lucky";
-    else{
-        outputBox.innerHTML="Your Birthday is not lucky";
+    if(luckyNumber>0) 
+    {
+        if(sum%luckyNumber==0)
+            outputBox.innerHTML="Your Birthday is lucky";
+        else{
+            outputBox.innerHTML="Your Birthday is not lucky";
+        }
     }
+    else
+        outputBox.innerHTML="Please enter number greater than 0";
 }
 function checkBirthdayIsLucky(){
     const dob = dateOfBirth.value;
